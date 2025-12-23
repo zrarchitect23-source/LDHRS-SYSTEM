@@ -250,7 +250,7 @@ const Login = ({ onLogin }: { onLogin: (email: string) => void }) => {
             <img src={GCUF_LOGO_URL} alt="GCUF Logo" className="w-full h-full object-contain transition-transform group-hover:scale-110" />
           </div>
           <h1 className="text-4xl font-black tracking-tighter text-white uppercase italic">
-            <SparkleText>LDHRS <span className="not-italic opacity-80">SYSTEM</span></SparkleText>
+            <SparkleText>LDHRS SYSTEM</SparkleText>
           </h1>
           <div className="flex items-center justify-center gap-2 mt-4 opacity-60">
             <Crown className="w-3 h-3 text-amber-500" />
@@ -415,7 +415,7 @@ const Dashboard = ({ onLogout, userEmail }: { onLogout: () => void, userEmail: s
           <div className={`h-10 w-px ${isDayMode ? 'bg-slate-200' : 'bg-white/10'}`}></div>
           <div>
             <h1 className={`text-2xl font-black tracking-tighter uppercase italic`}>
-              <SparkleText isDayMode={isDayMode}>LDHRS <span className="not-italic opacity-60">SYSTEM</span></SparkleText>
+              <SparkleText isDayMode={isDayMode}>LDHRS SYSTEM</SparkleText>
             </h1>
             <p className={`text-[9px] font-black uppercase tracking-[0.4em] mt-1.5 flex items-center gap-2 ${isDayMode ? 'text-amber-600' : 'text-amber-500/60'}`}>
               <span className={`w-2 h-2 rounded-full ${state.isShutDown ? 'bg-red-500 shadow-[0_0_10px_red]' : (isDayMode ? 'bg-emerald-500 animate-pulse' : 'bg-emerald-500 shadow-[0_0_10px_#10b981] animate-pulse')}`}></span>
