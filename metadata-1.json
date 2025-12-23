@@ -1,0 +1,7 @@
+{
+  "name": "LDHRS SYSTEM",
+  "description": "A smart solar tracking system dashboard with manual controls and real-time monitoring.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

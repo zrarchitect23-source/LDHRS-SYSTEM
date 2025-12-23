@@ -1,0 +1,10 @@
+
+{
+  "appId": "com.ldhrs.solar.system",
+  "appName": "LDHRS SYSTEM",
+  "webDir": ".",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  }
+}

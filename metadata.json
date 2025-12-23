@@ -1,0 +1,7 @@
+{
+  "name": "LDHRS SYSTEM",
+  "description": "Professional Dual-Axis Solar Tracking Monitoring System for GCUF Engineering.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
